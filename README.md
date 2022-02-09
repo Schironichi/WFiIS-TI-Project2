@@ -27,6 +27,12 @@ This project consists of three parts:
           ibmcloud app push
     command in the system console.
 
+## Genesis
+
+The project was created for the subject Internet Techniques (Techniki Internetowe) during the V semester of studies.
+
+## Showcase
+
 Here is a brief showcase of the application (also available [here](showcase)):
 ![Main page](/showcase/main_page.jpg)
 
