@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <title>Projekt 2</title>
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <script src="rest.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Techniki Internetowe 2021/2022</h1>
+    </header>
+    <div class="kontener">
+      <article class="wpis">
+        <h2>Ankieta - Uczelnia</h2>
+      </article>
+      <form action="#">
+        <table class="menu">
+          <tr>
+            <td><input type="button" value="Nowy wpis" onclick="_addPoll()"/></td>
+            <td><input type="button" value="Wyniki" onclick="_showPoll()"/></td>
+            <td><input id="login" type="button" value="Logowanie / Rejestracja" style="display: none;" onclick="_loginForm()"/></td>
+            <td><input id="logout" type="button" value="Wyloguj" style="display: none;" onclick="_logout()" /></td>
+          </tr>
+      </table>
+      </form>
+      <div id="plots"></div>
+      <div id="data"></div>
+      <div id="result"></div>
+      <article class="wpis">
+        <h2>Opis Projektu</h2>
+        <p>Projekt polega na wykonaniu ankiety dla użytkowników. Dany użytkownik może wykonać wiele wpisów do ankiety. Wyniki ankiety są przedstawione w postaci wykresów kołowych, dostępnych wyłączenie po zalogowaniu. Zapis danych odbywa się z wykorzystaniem dwóch baz danych:</p>
+        <ul>
+          <li>Przechowywanie danych zarejestrowanych użytkowników - MongoDB,</li>
+          <li>Dane zapisywane na serwerze (zarejestrowany użytkownik) - MongoDB,</li>
+          <li>Dane zapisywane w przeglądarce (niezarejestrowany użytkownik) - IndexedDB.</li>
+        </ul>
+        <p>Przekazanie danych pomiędzy odpowiednimi bazami odbywa się automatycznie, po zalogowaniu użytkownika lub po wciśnięciu odpowiedniego przycisku w Wynikach. Wykresy są generowane wyłącznie dla wartości przechowywanych w bazie MongoDB.</p>
+        <p>Technologie wykorzystane do projektu:</p>
+        <ul>
+          <li>Po stronie klienta: język programowania HTML5 ze stylami CSS oraz JavaScript,</li>
+          <li>Po stronie serwera: język programowania PHP,</li>
+          <li>Połączenie z bazami danych MongoDB, IndexedDB,</li>
+          <li>Połączenie między klientem a serwerem: AJAX, REST.</li>
+        </ul>
+        <p>Obieg danych został zrealizowany wykorzystując obiekty Fetch.</p>
+      </article>
+    </div>
+    <footer>
+      <p>2021-2022 Damian Raczyński</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+@import url(./main.css);
+
+.menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #851c1c;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+input
+{
+    margin: auto 20px auto;
+    padding: 8px 8px 8px;
+    background-color: #6f2232;
+    color: white;
+}
+
+.formularz
+{
+    display: block;
+    margin: auto;
+    width: max-content;
+    text-align: center;
+    color: white;
+    padding: 10px 10px 10px;
+    background-color: #851c1c;
+    border-radius: 10px;
+}
+
+.ankieta
+{
+    display: block;
+    margin: auto;
+    width: max-content;
+    color: white;
+    padding: 10px 10px 10px;
+    background-color: #851c1c;
+    border-radius: 10px;
+}
+
+#val
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#kolor
+{
+    width: 30%;
+    height: 50px;
+}
+
+input[type="range"]
+{
+    width:80%;
+}
+
+.break {
+    width: 100%;
+}
+
+.wyniki
+{
+    border-collapse: collapse;
+    font-size: 13px;
+    border: 1px solid #4e4e50;
+}
+
+.wyniki td, th
+{
+    border: 1px solid #4e4e50;
+}
+
+.wyniki th
+{
+    padding: 5px;
+    background-color: #6f2232;
+}

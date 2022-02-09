@@ -1,0 +1,7 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  name: 
+  disk_quota: 512M
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git
