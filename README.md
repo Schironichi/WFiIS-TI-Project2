@@ -25,7 +25,7 @@ This project consists of three parts:
 
 command in the system console.
 
-Here is a short showcase of the main application:
+Here is a short showcase of the main application (also available [here](showcase)):
 ![Main page](/showcase/main_page.jpg)
 
 ![Log in Page](/showcase/login.jpg)
