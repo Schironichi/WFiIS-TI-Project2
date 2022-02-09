@@ -19,13 +19,15 @@ This project consists of three parts:
 - creating cookies,
 - sending survey results,
 - getting survey results.
-3. Application building - [manifest.yml](manifest.yml) file. It allows to build this project on IBM Cloud. The only requirement is adding the MongoDB access credentials in the MongoDB [configuration and access](rest/mongo.php) file, adding the application name in [manifest.yml](manifest.yml) file and calling
+3. Application building - [manifest.yml](manifest.yml) file. It allows to build this project on IBM Cloud. The only requirements are:
+- adding the MongoDB access credentials in the MongoDB [configuration and access](rest/mongo.php) file,
+- adding the application name in [manifest.yml](manifest.yml) file,
+- calling
 
-    ibmcloud app push
+          ibmcloud app push
+    command in the system console.
 
-command in the system console.
-
-Here is a short showcase of the main application (also available [here](showcase)):
+Here is a brief showcase of the application (also available [here](showcase)):
 ![Main page](/showcase/main_page.jpg)
 
 ![Log in Page](/showcase/login.jpg)
